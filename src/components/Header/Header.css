@@ -1,3 +1,23 @@
+.page {
+  background-color: black;
+  color: yellow;
+}
+
 .menu {
   display: flex;
+  justify-content: space-evenly;
+}
+
+.welcome {
+  margin-left: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+  font-size: .8rem;
+  margin: 8px ;
+  padding: 8px 16px;
+  border: solid grey 1px;
+  border-radius: 5px;
 }

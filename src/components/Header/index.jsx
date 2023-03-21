@@ -1,14 +1,16 @@
 import React from 'react';
+import './Header.css';
 
 const Header = () => {
   return (
-    <header className="menu">
-      <h1> Logo </h1>
-      <nav>
-        <h1>Welcome to Vte!!</h1>
-        <a href="">Login</a>
-      </nav>
-    </header>
+    <div className="page">
+      <header className="menu">
+        <h1> Vte </h1>
+        <h1 className="welcome">Welcome to Vte!!</h1>
+        <a href="#">Login</a>
+       
+      </header>
+    </div>
   );
 };
 

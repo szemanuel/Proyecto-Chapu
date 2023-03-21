@@ -10,11 +10,10 @@
 
 .menuHeader {
   display: flex;
-  margin-top: 30px;
 }
 
 .offerMenu {
-  margin-left: 90px;
+  margin-left: 150px;
   margin-right: 275px;
   color: white;
   font-size: 1.3rem;

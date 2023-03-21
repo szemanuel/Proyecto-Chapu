@@ -3,8 +3,8 @@ import './Body.css';
 
 const Body = () => {
   return (
-    <div className="page">
-      <main className="menu">
+    <div className="pageBody">
+      <main className="menuHeader">
         <ul className="offerMenu">
           <li> Online Access </li>
           <li> Client Administration </li>
@@ -14,9 +14,9 @@ const Body = () => {
           <li> Easy Administration </li>
         </ul>
         <div className="accessMenu">  
-        <a href="#">Try</a>      
-        <a href="#">Pricing</a>      
-        <a href="#">Contact us</a>      
+        <a href="#">TRY</a>      
+        <a href="#">PRICING</a>      
+        <a href="#">CONTACT US</a>      
         </div>
       </main>
     </div>

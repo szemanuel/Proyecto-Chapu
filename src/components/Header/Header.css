@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .page {
   background-color: black;
   color: yellow;
@@ -15,8 +20,8 @@
 a {
   text-decoration: none;
   color: yellow;
-  font-size: .8rem;
-  margin: 8px ;
+  font-size: 0.8rem;
+  margin: 8px;
   padding: 8px 16px;
   border: solid grey 1px;
   border-radius: 5px;

@@ -1,23 +1,35 @@
-.page {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pageBody{
   background-color: black;
   color: yellow;
 }
 
-.menu {
+.menuHeader {
   display: flex;
-  justify-content: space-evenly;
+  margin-top: 30px;
 }
 
-.welcome {
-  margin-left: 4rem;
+.offerMenu {
+  margin-left: 90px;
+  margin-right: 275px;
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 20px;
 }
 
-a {
+.accessMenu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   text-decoration: none;
   color: yellow;
-  font-size: .8rem;
-  margin: 8px ;
+  font-size: 0.8rem;
+  margin: 8px;
   padding: 8px 16px;
-  border: solid grey 1px;
+  border:  grey 1px;
   border-radius: 5px;
 }

@@ -1,0 +1,62 @@
+.menuLogin{
+  display: flex;
+  justify-content: center;
+}
+
+.logoLogin{
+  display: flex;
+  
+}
+
+.welcomeMenu{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.loginPage {
+  background-color: black;
+  color: yellow;
+  }
+
+.userLogin{
+  display:flex;
+  flex-direction: column;
+}
+
+.loginInputs{
+  display:flex;
+  flex-direction: column;
+  margin-left: 45%;
+  width: 10rem;
+  gap: .5rem;
+  font-size: 3rem;
+}
+
+.inputType{
+  height: 2rem;
+}
+
+.userOptions{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.userOptions {
+  text-decoration: none;
+  color: yellow;
+  font-size: 0.8rem;
+  margin: 8px;
+  padding: 8px 16px;
+  border: grey 1px;
+  border-radius: 5px;
+  width: 10rem;
+
+  margin-left: 43.5%;
+  text-align: center;
+
+
+
+}

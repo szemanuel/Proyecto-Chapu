@@ -11,6 +11,8 @@ export default function App() {
       <Header />
       <Body />
       <Footer />
+      {/* <Route path="/welcome"> <Welcome /></Route> */}
+
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { Header } from './components/Header/index';
 import { Body } from './components/Body/index';
 import { Footer } from './components/Footer/index';
 import { Login } from './pages/Login/index';
-import { Signup } from './components/Signup/index';
+import { Signup } from './pages/Signup/index';
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
         <Routes>
           <Route path="/Login" element={<Login />} />
         </Routes>
-        </BrowserRouter>
+      </BrowserRouter>
 
       {/* <Route path="/welcome"> <Welcome /></Route> */}
       {/* <Route path="/welcome"> <Welcome /></Route> */}

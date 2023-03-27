@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login.css';
-import { Signup } from '/pages/Signup';
+import { Signup } from '../Signup/index';
 
 const Login = () => {
   return (
@@ -17,9 +17,9 @@ const Login = () => {
           <input className="inputType" placeholder="Password" />
         </div>
         <div className="userOptions">
-          <a href="#" >Login</a>
-          <a href="#">Sign Up</a>
-          <a href="#" >Forget Password</a>
+          <a href="/Signup" >Login</a>
+          <a href="/Signup">Sign Up</a>
+          <a href="/Signup" >Forget Password</a>
         </div>
       </main>
     </div>

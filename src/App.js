@@ -13,11 +13,11 @@ export default function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/Login" element={<Login />}/>
+          <Route path="/Login" element={<Login />} />
         </Routes>
+        <Body />
+        <Footer />
       </BrowserRouter>
-      <Body />
-      <Footer />
 
       {/* <Route path="/welcome"> <Welcome /></Route> */}
       {/* <Route path="/welcome"> <Welcome /></Route> */}

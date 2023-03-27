@@ -1,7 +1,6 @@
 import React from 'react';
 import './Login.css';
 import { Signup } from '/pages/Signup';
-import { BrowserRouter, Route, Routes, NavLink, Link } from 'react-router-dom';
 
 const Login = () => {
   return (
@@ -18,14 +17,9 @@ const Login = () => {
           <input className="inputType" placeholder="Password" />
         </div>
         <div className="userOptions">
-          <BrowserRouter>
-            <Link to="/signup">Login</Link>
-            <Link to="/signup">Sign Up</Link>
-            <Link to="/signup">Forget Password</Link>
-            <Routes>
-              <Route exact path="/signup" element={<Signup />}></Route>
-            </Routes>
-          </BrowserRouter>
+          <a href="#" >Login</a>
+          <a href="#">Sign Up</a>
+          <a href="#" >Forget Password</a>
         </div>
       </main>
     </div>

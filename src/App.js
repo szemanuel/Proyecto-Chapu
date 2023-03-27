@@ -12,12 +12,12 @@ export default function App() {
     <div>
       <BrowserRouter>
         <Header />
+        <Body />
+        <Footer />
         <Routes>
           <Route path="/Login" element={<Login />} />
         </Routes>
-        <Body />
-        <Footer />
-      </BrowserRouter>
+        </BrowserRouter>
 
       {/* <Route path="/welcome"> <Welcome /></Route> */}
       {/* <Route path="/welcome"> <Welcome /></Route> */}

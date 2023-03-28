@@ -1,5 +1,7 @@
 import React from 'react';
 import './Body.css';
+import { plan_pricing } from '../pages/Planpricing/index';
+
 
 const Body = () => {
   return (
@@ -14,8 +16,8 @@ const Body = () => {
           <li> Easy Administration </li>
         </ul>
         <div className="accessMenu">  
-        <a href="#">TRY</a>      
-        <a href="#">PRICING</a>      
+        <a href="/plan_pricing">TRY</a>      
+        <a href="/plan_pricing">PRICING</a>      
         <a href="#">CONTACT US</a>      
         </div>
       </main>

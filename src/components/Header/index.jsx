@@ -7,7 +7,7 @@ const Header = () => {
       <header className="menu">
         <h1 className="logo"> Vte </h1>
         <h1 className="welcome">Welcome to Vte!!</h1>
-        <a href="/Login">Login</a>      
+        <a href="/login">Login</a>      
       </header>
     </div>
   );

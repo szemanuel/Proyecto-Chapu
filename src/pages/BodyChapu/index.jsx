@@ -1,8 +1,13 @@
 import React from 'react';
 import './BodyChapu.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Welcome } from '../Welcome/index';
 import { Signup } from '../Signup/index';
-import { Login } from './Login/index';
+import { Login } from '../Login/index';
+import { PlanPricing } from '../Planpricing/index';
+import { PlanPricing } from '../Login/index';
+
+
 
 const BodyChapu = () => {
   return (
@@ -15,14 +20,11 @@ const BodyChapu = () => {
           <Route path="/login">
             <Login />
           </Route>
-          <Route path="/contact">
-            <Contact />
+          <Route path="/planprincing">
+            <PlanPricing />
           </Route>
-          <Route path="/me">
-            <Me />
-          </Route>
-          <Route path="/home">
-            <Home />
+          <Route path="/signup">
+            <Signup />
           </Route>
           //agregar el resto de las páginas acá
           <Route>
@@ -34,4 +36,4 @@ const BodyChapu = () => {
   );
 };
 
-export { Login };
+export { BodyChapu };

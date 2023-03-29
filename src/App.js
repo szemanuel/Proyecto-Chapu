@@ -8,12 +8,14 @@ import { Login } from './pages/Login/index';
 import { Signup } from './pages/Signup/index';
 import { Plan_pricing } from './pages/Planpricing/index';
 import { Welcome } from './pages/Welcome/index';
+import { BodyChapu } from './pages/BodyChapu/index';
 
 
 export default function App() {
   return (
     <div>
       <Welcome />
+      <BodyChapu />
       
      </div>
   );
